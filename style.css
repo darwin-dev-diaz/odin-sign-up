@@ -1,0 +1,26 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(90deg, #f7dad2, #ffcdce);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: white;
+  box-shadow: 2px 2px 5px rgb(185, 185, 185);
+  display: flex;
+
+  width: 50%;
+  height: 60%;
+}
+
+.img{
+    height: 100%;
+}
+
+.img>img{
+    height: 100%;
+}
