@@ -1,3 +1,7 @@
+:root{
+  --accent: #FF9A9C;
+}
+
 body {
   width: 100vw;
   height: 100vh;
@@ -8,19 +12,53 @@ body {
   justify-content: center;
 }
 
+h1{
+  color: #FF9A9C;
+  align-self: center;
+}
 .container {
   background-color: white;
   box-shadow: 2px 2px 5px rgb(185, 185, 185);
   display: flex;
-
+  
   width: 50%;
   height: 60%;
 }
-
 .img{
     height: 100%;
 }
 
 .img>img{
     height: 100%;
+}
+.form-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 24px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+input{
+  background-color: #F7F7F7;
+  padding: 16px;
+  border: none;
+  border-radius: 50px;
+  width: 80%;
+}
+.field{
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+}
+.circle{
+  background-color: var(--accent);
+  height: 13px;
+  width: 13px;
+  border-radius: 50px;
 }
